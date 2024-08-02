@@ -176,13 +176,14 @@ a {
 
 .halaman-utama h1 {
     font-family: "El Messiri", sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 40px;
     text-align: center;
 }
 
 .halaman-utama span {
     font-family: "El Messiri", sans-serif;
+    text-align: center;
 }
 
 .halaman-utama-undangan h2 {
