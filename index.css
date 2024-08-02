@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+}
+
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.header h1 {
+    font-family: "Playwrite CU", cursive;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.header p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header span {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.link p {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: black;
+    font-family: "El Messiri", sans-serif;
+}
+
+.main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    margin-inline: auto;
+    margin-top: 30px;
+}
+
+.main img {
+   width: 200px;
+   height: 200px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+.main-section h2 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 55px;
+}
+
+.main-section-lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main-section-lower h3 {
+    text-align: center;
+    font-family: "El Messiri", sans-serif;
+}
+
+.main-section-lower p {
+    text-align: center;
+    font-family: "El Messiri", sans-serif;
+}
+
+.main-section-lower-line-top {
+    width: 80%;
+    margin-inline: auto;
+    border: 1px solid black;
+    margin-top: 40px;
+}
+
+.main-section-lower-line-bottom {
+    width: 80%;
+    margin-inline: auto;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.main-section-lower span {
+    text-align: center;
+    font-family: "El Messiri", sans-serif;
+    font-size: 14px;
+    margin-top: 10px;   
+}
+
+/* Reset dan setelan umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+}
+
+/* Tambahkan animasi fade-in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fade-in 1.5s ease-in-out forwards;
+}
+
+/* Tambahkan animasi slide-in */
+@keyframes slide-in {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in {
+    animation: slide-in 1.5s ease-in-out forwards;
+}
+
+/* Style lainnya tetap sama */
+.halaman-utama {
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.halaman-utama h2 {
+    font-family: "El Messiri", sans-serif;
+    margin-top: 20px;
+}
+
+.halaman-utama p {
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+    width: 300px;
+}
+
+.halaman-utama h1 {
+    font-family: "El Messiri", sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+.halaman-utama span {
+    font-family: "El Messiri", sans-serif;
+}
+
+.halaman-utama-undangan h2 {
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.halaman-utama-undangan ul {
+    margin-top: 30px;
+}
+
+.halaman-utama-undangan li {
+    font-family: "El Messiri", sans-serif;
+    text-align: center;
+}
+
+.halaman-utama-text {
+    text-align: center;
+    font-family: "El Messiri", sans-serif;
+    gap: 100px;
+}
+
+.halaman-utama-text h2 {
+    font-family: "El Messiri", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.keluarga p {
+    font-family: "El Messiri", sans-serif;
+}
+
+.halaman-utama-text span {
+    font-family: "El Messiri", sans-serif;
+    margin-top: 20px;
+}
+
+.keluarga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.keluarga span {
+    font-family: "El Messiri", sans-serif;
+}
+
+
+
+
+ 
+
+
